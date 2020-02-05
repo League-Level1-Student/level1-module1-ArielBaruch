@@ -5,6 +5,8 @@ public class RaceCar {
 	private int positionInRace;
 	public boolean damaged = false;
 	
+		
+	
 	/**
 	 * 
 	 * @param brand Brand of race car
