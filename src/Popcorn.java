@@ -43,7 +43,7 @@ class Microwave {
 
 public class Popcorn {
 
-	private int kernels = 20;
+	private int kernels = 60;
 	private String flavor;
 	private boolean isCooked = false;
 
@@ -51,6 +51,7 @@ public class Popcorn {
 		this.flavor = flavor;
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
+
 
 	public void eat() {
 		if (isCooked) {
@@ -80,5 +81,6 @@ public class Popcorn {
 	}
 	
 }
+
 
 
