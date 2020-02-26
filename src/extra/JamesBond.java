@@ -11,7 +11,7 @@ public static void main(String[] args) {
  int findCode(vault V) {
 	for(int i = 0; i<1000000; i++) {
 	
-		vault H = new vault(); 
+		vault H = new vault(10000); 
 		boolean J = H.tryCode(100);
 	
 		if(J == true) {
